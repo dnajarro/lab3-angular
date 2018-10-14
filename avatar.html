@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
-<script src="avatar.js"></script>
-<link rel="stylesheet" type="text/css" href="avatar.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+  <script src="avatar.js"></script>
+  <link rel="stylesheet" type="text/css" href="avatar.css">
   <meta charset="utf-8">
   <title>User Avatar Template</title>
 </head>
 <body>
-
   <div id="mainControl" ng-app='app' ng-controller='mainCtrl'>
     <h1><i>Create new user</i></h1>
-    
+    <p>Enter your name, email, and image link. 
+    Then hit the 'Add New' button to make a user!</p>
     <form name='userForm' ng-submit='addNew(userForm)'>
-      
       <input placeholder='Name' ng-model='userForm.name'/>
       <input placeholder='Email' ng-model='userForm.email' />
       <input placeholder='Image Url' ng-model='userForm.url'/>
