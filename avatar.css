@@ -3,7 +3,11 @@
 }
 
 .Avatar {
-  text-align: center;  
+  text-align: center;
+  background: lightgrey;
+  border-radius: 25px;
+  border: 3px solid green;
+  padding: 20px;
 }
 
 .Avatar img {
@@ -13,6 +17,11 @@
 }
 
 .Avatar h4 {
-  text-transform: capitalize;
-  color: red;
+  color: blue;
+}
+
+body {
+  background: lightgreen;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
